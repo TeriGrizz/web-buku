@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daftar Buku Pembelajaran Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 98%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul {
+    background-color: lightskyblue;
+    border: 1px black solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li {
+  display: inline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-variant: normal;
+  font-style: normal;
+  margin : 140px;
+}
+li:hover {
+    background-color: rgb(214, 212, 224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    border: solid 1px black;
+}
+header {
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+search.div {
+    justify-content: center;
+    display: flex;
+}
+Daftar.div {
+    background-color: antiquewhite;
+    width: 100%;
+}
+Daftar.div.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+    </style>
+    <body>
+        <header class="header">
+            <h1>Welcome</h1>
+        </header>
+        <br>
+        <search>
+            <div>
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                </form>                  
+            </div>
+        </search>
+        <h2>Daftar Buku</h2>
+        <Daftar>
+            <div>
+                <LI><img src="komp.png"></LI>
+                <LI><img src="tik.jpg"></LI>
+                <LI><img src="mtk.jpg"></LI>
+            </div>
+        </Daftar>
+        <footer class="footer">
+            <p>contact</p>
+        </footer>
+    </body>
+</html>
