@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Perpustakaan</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.cm/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+        <link media="all" type="text/css" rel="stylesheet" href="index.css">
+    </head>
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        margin-top: 30px;
+        }
+
+    li {
+        float: left;
+        }
+
+    li a {
+        display: block;
+        color: burlywood;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+    li a:hover {
+        background-color: burlywood;
+        color: #333;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 10px;
+        padding: 10px;
+        }
+
+    .content > div {
+        background-color: rgb(112, 97, 76);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+        }
+    
+    footer {
+        text-align: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: rgb(138, 119, 94);
+    }
+
+    div > p {
+        display: block;
+        color: burlywood;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: #333;
+    }
+
+    .button {
+        background-color: #333;
+        color: burlywood;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        height:40px;
+        width:120px;
+    }
+
+    .button:hover {
+        background-color: chocolate;
+        color: khaki;
+    }
+
+    .footerbutton {
+        background-color: #333;
+        color: antiquewhite;
+        font-family: 'Times New Roman', Times, serif;
+        height: 40px;
+        width: 100px;
+    }
+
+    .footerbutton:hover {
+        color:red;
+    }
+
+    
+    </style>
+    <body style="background-color: burlywood;">
+        <navbar class="navbar">
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="genre.html">Genre</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </navbar>
+        <div class="spanduk">
+        <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #333;">Web Perpustakaan</h1>
+        <h3 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #333;">"Belajar tanpa berpikir hasilnya akan sia-sia, berpikir tanpa belajar akan berbahaya"</h3>
+        </div>
+        <div><p>Daftar Buku BackEnd</p></div>
+        <content class="content">
+            <div>
+                <img src="download (1).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (2).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class='button'>OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (3).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class='button'>OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="images (1).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class='button'>OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="images (2).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class='button'>OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="images (3).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="images (4).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="images (5).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="images.jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (4).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class='button'>OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+        </content>
+        <div><p>Daftar Buku Data Science dan FrontEnd</p></div>
+        <content class="content">
+            <div>
+                <img src="download (5).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (6).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (8).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (9).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (10).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+        </content>
+        <div><p>Daftar Buku Cyber Security</p></div>
+        <content class="content">
+            <div>
+                <img src="download (11).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (12).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (13).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (14).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+            <div>
+                <img src="download (15).jfif">
+                <div>
+                    <button onclick="myFunction().style.display='block'" class="button">OPEN</button>
+                    <script src="daftarbuku.js">    </script>
+                </div>
+            </div>
+        </content>
+        <footer style="background-color: #333;">
+        <div style="display:grid; grid-template-columns: 50% auto; padding:4em 1em">
+            <div style="background-color: #1b1b1b; margin-right: 20px; margin-top:20px;">
+                <h2 style="font-family:Arial, Helvetica, sans-serif; color: white;">Tentang Kami</h2>
+                <br style="background-color: #333;">
+                <p style="font-family: 'Times New Roman', Times, serif; background-color: #1b1b1b;">Perusahaan Oncom atau Oncom Company adalah salah satu company terbaik yang ada di Indonesia. Company ini berlokasi di Jl. Oncom No. 20</p>
+            </div>
+            <div style="background-color: #1b1b1b; margin-left: 20px; margin-top: 10px;">
+                <h2 style="font-family:Arial, Helvetica, sans-serif; color: white;">Kategori</h2>
+                <br>
+                <button onclick="buttonFooter().style.display='block'" class="footerbutton">Perpustakaan</button>
+                <button onclick="buttonFooter().style.display='block'" class="footerbutton">Informasi</button>
+
+                <script src="footer.js"></script>
+            </div>
+        </div>
+            <p style="font-family: 'Times New Roman', Times, serif; text-align: center;">ONCOMCOMPANY|Copyright @ All rights reserved.|MoreNews by Oncom</p>
+        </footer>
+    </body>
+</html>
